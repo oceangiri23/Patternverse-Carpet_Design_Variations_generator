@@ -15,9 +15,7 @@ base_model_path = "runwayml/stable-diffusion-v1-5"
 vae_model_path = "stabilityai/sd-vae-ft-mse"
 
 def resize_without_padding(image_pil, target_size=(900, 1200)):
-    # Convert PIL Image to NumPy array
     image = np.array(image_pil)
-    # Resize the image without preserving aspect ratio (stretching)
     resized_image = cv2.resize(image, target_size, interpolation=cv2.INTER_LANCZOS4)
     return resized_image
 
@@ -48,9 +46,6 @@ print("Exists:", os.path.exists(image_encoder_path))
 
 print("Checking Checkpoint path:", checkpoint)
 print("Exists:", os.path.exists(checkpoint))
-
-# state_dict = torch.load(checkpoint, map_location="cpu")
-# state_dict.keys()
 
 conditioning_model = ImageConditioning(pipe, image_encoder_path,checkpoint, device)
 
