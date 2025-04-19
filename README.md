@@ -71,27 +71,27 @@ Below is an example of an input image(First image) and its five generated variat
 
 <p align="center">
   <img src="output/30.jpg" width="150" />
-  <img src="output/output_30a.png" width="150" />
-  <img src="output/output_30b.png" width="150" />
-  <img src="output/output_30c.png" width="150" />
-  <img src="output/output_30d.png" width="150" />
-  <img src="output/output_30e.png" width="150" />
+  <img src="output/output_30a.png" width="120" />
+  <img src="output/output_30b.png" width="120" />
+  <img src="output/output_30c.png" width="120" />
+  <img src="output/output_30d.png" width="120" />
+  <img src="output/output_30e.png" width="120" />
 </p>
 <p align="center">
   <img src="output/36.png" width="150" />
-  <img src="output/output_36a.png" width="150" />
-  <img src="output/output_36b.png" width="150" />
-  <img src="output/output_36c.png" width="150" />
-  <img src="output/output_36d.png" width="150" />
-  <img src="output/output_36e.png" width="150" />
+  <img src="output/output_36a.png" width="120" />
+  <img src="output/output_36b.png" width="120" />
+  <img src="output/output_36c.png" width="120" />
+  <img src="output/output_36d.png" width="120" />
+  <img src="output/output_36e.png" width="120" />
 </p>
 <p align="center">
   <img src="output/49.png" width="150" />
-  <img src="output/output_49a.png" width="150" />
-  <img src="output/output_49b.png" width="150" />
-  <img src="output/output_49c.png" width="150" />
-  <img src="output/output_49d.png" width="150" />
-  <img src="output/output_49e.png" width="150" />
+  <img src="output/output_49a.png" width="120" />
+  <img src="output/output_49b.png" width="120" />
+  <img src="output/output_49c.png" width="120" />
+  <img src="output/output_49d.png" width="120" />
+  <img src="output/output_49e.png" width="120" />
 </p>
 
 
